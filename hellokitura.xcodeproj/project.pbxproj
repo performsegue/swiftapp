@@ -317,6 +317,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BFE864D2187383A00B2E6D3 /* Procfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Procfile; sourceTree = "<group>"; };
 		"Kitura-TemplateEngine::KituraTemplateEngine::Product" /* KituraTemplateEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KituraTemplateEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Kitura-net::CHTTPParser::Product" /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Kitura-net::KituraNet::Product" /* KituraNet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KituraNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -794,16 +795,16 @@
 			path = bodyParser;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				0BFE864D2187383A00B2E6D3 /* Procfile */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_11 /* Dependencies */,
 				OBJ_157 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_57 /* contentType */ = {
@@ -1291,7 +1292,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_157 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
