@@ -6,7 +6,7 @@ let router = Router()
 // Handle HTTP GET requests to /
 router.get("/wish") {
     request, response, next in
-    response.send("Hello, World!")
+    response.send(["Hello":"world"])
     next()
 }
 
